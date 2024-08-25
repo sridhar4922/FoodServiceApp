@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/FoodServiceApp/static/css/main.f3dc6eef.css",
+    "main.js": "/FoodServiceApp/static/js/main.00807703.js",
+    "static/media/plate.png": "/FoodServiceApp/static/media/plate.30a2d814d2cd3566e6b4.png",
+    "static/media/sideleft.png": "/FoodServiceApp/static/media/sideleft.e535914f485aa1f53cc7.png",
+    "static/media/logo.png": "/FoodServiceApp/static/media/logo.e324c7236c0ed174adb2.png",
+    "static/media/sidetop.png": "/FoodServiceApp/static/media/sidetop.76c3f6b81122b2c355de.png",
+    "static/media/sidebottom.png": "/FoodServiceApp/static/media/sidebottom.aea3cfd9c04ebe8f7c97.png",
+    "static/media/bottom.png": "/FoodServiceApp/static/media/bottom.ef35297bf0536957d482.png",
+    "index.html": "/FoodServiceApp/index.html",
+    "main.f3dc6eef.css.map": "/FoodServiceApp/static/css/main.f3dc6eef.css.map",
+    "main.00807703.js.map": "/FoodServiceApp/static/js/main.00807703.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3dc6eef.css",
+    "static/js/main.00807703.js"
+  ]
+}
