@@ -1,0 +1,44 @@
+.footer {
+  width: 100%;
+  padding: 4rem 0; /* Reduced padding to bring content closer */
+  background-color: #5f4846;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; /* Reduced gap to bring content closer */
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  padding: 0; /* Ensure padding is consistent */
+  margin: 0;  /* Ensure margin is consistent */
+}
+
+.location, .phone, .email, .social {
+  margin-bottom: 0.5rem; /* Reduced margin to tighten up the layout */
+}
+
+h4, h3 {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem; 
+  color: #fbf5d9;
+}
+
+p {
+  font-size: 1rem; /* Adjusted font size for consistency */
+}
+
+@media screen and (max-width: 640px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center; /* Center the content on smaller screens */
+  }
+}

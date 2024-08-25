@@ -1,0 +1,17 @@
+/* Ensure the entire app takes the full height */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

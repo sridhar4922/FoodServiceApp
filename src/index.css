@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Yeseva One', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fffbea;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  padding: 6rem 0;
+  background-color: rgba(19, 19, 19, 0.8);
+}
+
+h1,h4,p,a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  padding: 7px 7px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #EC9568;
+  color: black;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.btn-light{
+  background: transparent;
+  color: white;
+
+}
+
+.btn:hover {
+  background: grey;
+  color: white;
+  transition: 0.3s;
+}
+
+
+
